@@ -17,7 +17,6 @@
 		C08D0EBC26B556B000C1BE39 /* Puzzle03.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0EBB26B556B000C1BE39 /* Puzzle03.swift */; };
 		C08D0EBE26B556B000C1BE39 /* Input03 in Resources */ = {isa = PBXBuildFile; fileRef = C08D0EBD26B556B000C1BE39 /* Input03 */; };
 		C08D0EC126B556B000C1BE39 /* Puzzle04.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0EC026B556B000C1BE39 /* Puzzle04.swift */; };
-		C08D0EC326B556B000C1BE39 /* Input04 in Resources */ = {isa = PBXBuildFile; fileRef = C08D0EC226B556B000C1BE39 /* Input04 */; };
 		C08D0EC626B556B000C1BE39 /* Puzzle05.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0EC526B556B000C1BE39 /* Puzzle05.swift */; };
 		C08D0EC826B556B000C1BE39 /* Input05 in Resources */ = {isa = PBXBuildFile; fileRef = C08D0EC726B556B000C1BE39 /* Input05 */; };
 		C08D0ECB26B556B000C1BE39 /* Puzzle06.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0ECA26B556B000C1BE39 /* Puzzle06.swift */; };
@@ -60,6 +59,7 @@
 		C08D0F2726B556B000C1BE39 /* Input24 in Resources */ = {isa = PBXBuildFile; fileRef = C08D0F2626B556B000C1BE39 /* Input24 */; };
 		C08D0F2A26B556B000C1BE39 /* Puzzle25.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0F2926B556B000C1BE39 /* Puzzle25.swift */; };
 		C08D0F2C26B556B000C1BE39 /* Input25 in Resources */ = {isa = PBXBuildFile; fileRef = C08D0F2B26B556B000C1BE39 /* Input25 */; };
+		C0C2889426B9723F008B5150 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C2889326B9723F008B5150 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +85,6 @@
 		C08D0EBB26B556B000C1BE39 /* Puzzle03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle03.swift; sourceTree = "<group>"; };
 		C08D0EBD26B556B000C1BE39 /* Input03 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input03; sourceTree = "<group>"; };
 		C08D0EC026B556B000C1BE39 /* Puzzle04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle04.swift; sourceTree = "<group>"; };
-		C08D0EC226B556B000C1BE39 /* Input04 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input04; sourceTree = "<group>"; };
 		C08D0EC526B556B000C1BE39 /* Puzzle05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle05.swift; sourceTree = "<group>"; };
 		C08D0EC726B556B000C1BE39 /* Input05 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input05; sourceTree = "<group>"; };
 		C08D0ECA26B556B000C1BE39 /* Puzzle06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle06.swift; sourceTree = "<group>"; };
@@ -128,6 +127,7 @@
 		C08D0F2626B556B000C1BE39 /* Input24 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input24; sourceTree = "<group>"; };
 		C08D0F2926B556B000C1BE39 /* Puzzle25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle25.swift; sourceTree = "<group>"; };
 		C08D0F2B26B556B000C1BE39 /* Input25 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input25; sourceTree = "<group>"; };
+		C0C2889326B9723F008B5150 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +161,7 @@
 		C08D0EA926B556B000C1BE39 /* AOC2015 */ = {
 			isa = PBXGroup;
 			children = (
+				C0C2889226B9722C008B5150 /* Helpers */,
 				C08D0EAA26B556B000C1BE39 /* Puzzle.swift */,
 				C08D0EAC26B556B000C1BE39 /* main.swift */,
 				C08D0EAE26B556B000C1BE39 /* InputFileReader.swift */,
@@ -224,7 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				C08D0EC026B556B000C1BE39 /* Puzzle04.swift */,
-				C08D0EC226B556B000C1BE39 /* Input04 */,
 			);
 			path = 04;
 			sourceTree = "<group>";
@@ -418,6 +418,14 @@
 			path = 25;
 			sourceTree = "<group>";
 		};
+		C0C2889226B9722C008B5150 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C0C2889326B9723F008B5150 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -507,7 +515,6 @@
 				C08D0EB926B556B000C1BE39 /* Input02 in Resources */,
 				C08D0EEB26B556B000C1BE39 /* Input12 in Resources */,
 				C08D0EF026B556B000C1BE39 /* Input13 in Resources */,
-				C08D0EC326B556B000C1BE39 /* Input04 in Resources */,
 				C08D0F0426B556B000C1BE39 /* Input17 in Resources */,
 				C08D0F1326B556B000C1BE39 /* Input20 in Resources */,
 				C08D0EDC26B556B000C1BE39 /* Input09 in Resources */,
@@ -536,6 +543,7 @@
 				C08D0EE926B556B000C1BE39 /* Puzzle12.swift in Sources */,
 				C08D0EBC26B556B000C1BE39 /* Puzzle03.swift in Sources */,
 				C08D0F2A26B556B000C1BE39 /* Puzzle25.swift in Sources */,
+				C0C2889426B9723F008B5150 /* Extensions.swift in Sources */,
 				C08D0ED526B556B000C1BE39 /* Puzzle08.swift in Sources */,
 				C08D0EF826B556B000C1BE39 /* Puzzle15.swift in Sources */,
 				C08D0EB226B556B000C1BE39 /* Puzzle01.swift in Sources */,
