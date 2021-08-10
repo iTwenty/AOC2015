@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		63DA9F3526BD1F4F00BC0CAF /* Input08-test in Resources */ = {isa = PBXBuildFile; fileRef = 63DA9F3426BD1F2100BC0CAF /* Input08-test */; };
+		C055E1D926C118D1008E05F4 /* Input12-test in Resources */ = {isa = PBXBuildFile; fileRef = C055E1D826C118BE008E05F4 /* Input12-test */; };
 		C08D0EAB26B556B000C1BE39 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0EAA26B556B000C1BE39 /* Puzzle.swift */; };
 		C08D0EAD26B556B000C1BE39 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0EAC26B556B000C1BE39 /* main.swift */; };
 		C08D0EAF26B556B000C1BE39 /* InputFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0EAE26B556B000C1BE39 /* InputFileReader.swift */; };
@@ -74,6 +75,7 @@
 
 /* Begin PBXFileReference section */
 		63DA9F3426BD1F2100BC0CAF /* Input08-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input08-test"; sourceTree = "<group>"; };
+		C055E1D826C118BE008E05F4 /* Input12-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input12-test"; sourceTree = "<group>"; };
 		C08D0EA226B556B000C1BE39 /* AOC2015 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2015; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08D0EA626B556B000C1BE39 /* Input.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Input.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08D0EAA26B556B000C1BE39 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 			children = (
 				C08D0EE826B556B000C1BE39 /* Puzzle12.swift */,
 				C08D0EEA26B556B000C1BE39 /* Input12 */,
+				C055E1D826C118BE008E05F4 /* Input12-test */,
 			);
 			path = 12;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				C08D0F2226B556B000C1BE39 /* Input23 in Resources */,
 				C08D0EFA26B556B000C1BE39 /* Input15 in Resources */,
 				C08D0F2C26B556B000C1BE39 /* Input25 in Resources */,
+				C055E1D926C118D1008E05F4 /* Input12-test in Resources */,
 				C08D0F0E26B556B000C1BE39 /* Input19 in Resources */,
 				C08D0EBE26B556B000C1BE39 /* Input03 in Resources */,
 				C08D0EB426B556B000C1BE39 /* Input01 in Resources */,
