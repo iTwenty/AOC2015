@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633E694926C3989A00066712 /* Input14-test in Resources */ = {isa = PBXBuildFile; fileRef = 633E694826C3989A00066712 /* Input14-test */; };
 		63DA9F3526BD1F4F00BC0CAF /* Input08-test in Resources */ = {isa = PBXBuildFile; fileRef = 63DA9F3426BD1F2100BC0CAF /* Input08-test */; };
 		C055E1D926C118D1008E05F4 /* Input12-test in Resources */ = {isa = PBXBuildFile; fileRef = C055E1D826C118BE008E05F4 /* Input12-test */; };
 		C08D0EAB26B556B000C1BE39 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0EAA26B556B000C1BE39 /* Puzzle.swift */; };
@@ -74,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		633E694826C3989A00066712 /* Input14-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input14-test"; sourceTree = "<group>"; };
 		63DA9F3426BD1F2100BC0CAF /* Input08-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input08-test"; sourceTree = "<group>"; };
 		C055E1D826C118BE008E05F4 /* Input12-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input12-test"; sourceTree = "<group>"; };
 		C08D0EA226B556B000C1BE39 /* AOC2015 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2015; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -317,6 +319,7 @@
 			children = (
 				C08D0EF226B556B000C1BE39 /* Puzzle14.swift */,
 				C08D0EF426B556B000C1BE39 /* Input14 */,
+				633E694826C3989A00066712 /* Input14-test */,
 			);
 			path = 14;
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 				C08D0ED226B556B000C1BE39 /* Input07 in Resources */,
 				C08D0EF526B556B000C1BE39 /* Input14 in Resources */,
 				C08D0F1826B556B000C1BE39 /* Input21 in Resources */,
+				633E694926C3989A00066712 /* Input14-test in Resources */,
 				C08D0F2726B556B000C1BE39 /* Input24 in Resources */,
 				C08D0EFF26B556B000C1BE39 /* Input16 in Resources */,
 				C08D0ED726B556B000C1BE39 /* Input08 in Resources */,
