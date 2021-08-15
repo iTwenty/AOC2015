@@ -60,6 +60,7 @@
 		C08D0F2726B556B000C1BE39 /* Input24 in Resources */ = {isa = PBXBuildFile; fileRef = C08D0F2626B556B000C1BE39 /* Input24 */; };
 		C08D0F2A26B556B000C1BE39 /* Puzzle25.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D0F2926B556B000C1BE39 /* Puzzle25.swift */; };
 		C08D0F2C26B556B000C1BE39 /* Input25 in Resources */ = {isa = PBXBuildFile; fileRef = C08D0F2B26B556B000C1BE39 /* Input25 */; };
+		C0911C9A26C8E8B400D35961 /* Input15-test in Resources */ = {isa = PBXBuildFile; fileRef = C0911C9926C8E8B400D35961 /* Input15-test */; };
 		C0C2889426B9723F008B5150 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C2889326B9723F008B5150 /* Extensions.swift */; };
 		C0C2889926BECB61008B5150 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C0C2889826BECB61008B5150 /* Algorithms */; };
 /* End PBXBuildFile section */
@@ -130,6 +131,7 @@
 		C08D0F2626B556B000C1BE39 /* Input24 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input24; sourceTree = "<group>"; };
 		C08D0F2926B556B000C1BE39 /* Puzzle25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle25.swift; sourceTree = "<group>"; };
 		C08D0F2B26B556B000C1BE39 /* Input25 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input25; sourceTree = "<group>"; };
+		C0911C9926C8E8B400D35961 /* Input15-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input15-test"; sourceTree = "<group>"; };
 		C0C2889326B9723F008B5150 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -329,6 +331,7 @@
 			children = (
 				C08D0EF726B556B000C1BE39 /* Puzzle15.swift */,
 				C08D0EF926B556B000C1BE39 /* Input15 */,
+				C0911C9926C8E8B400D35961 /* Input15-test */,
 			);
 			path = 15;
 			sourceTree = "<group>";
@@ -534,6 +537,7 @@
 				C08D0ED226B556B000C1BE39 /* Input07 in Resources */,
 				C08D0EF526B556B000C1BE39 /* Input14 in Resources */,
 				C08D0F1826B556B000C1BE39 /* Input21 in Resources */,
+				C0911C9A26C8E8B400D35961 /* Input15-test in Resources */,
 				633E694926C3989A00066712 /* Input14-test in Resources */,
 				C08D0F2726B556B000C1BE39 /* Input24 in Resources */,
 				C08D0EFF26B556B000C1BE39 /* Input16 in Resources */,
