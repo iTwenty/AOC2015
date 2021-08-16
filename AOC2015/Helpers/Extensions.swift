@@ -14,4 +14,16 @@ extension String {
             String(format: "%02hhx", $0)
         }.joined()
     }
+
+    func pad(with char: Character, toSize size: Int) -> String {
+        let paddingSize = size - self.count
+        if paddingSize <= 0 {
+            return self
+        }
+        var padded = self
+        for _ in (0..<paddingSize) {
+            padded = "\(char)\(padded)"
+        }
+        return padded
+    }
 }
