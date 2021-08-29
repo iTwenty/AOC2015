@@ -8,6 +8,10 @@
 import Foundation
 import CryptoKit
 
+enum Either<L, R> {
+  case left(L), right(R)
+}
+
 extension String {
     func md5Hex() -> String {
         return Insecure.MD5.hash(data: self.data(using: .utf8)!).map {
